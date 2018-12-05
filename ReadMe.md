@@ -4,7 +4,7 @@
 
 #description
 
- triangle tracker.js
+This application determines whether given dimensions create an isosceles, a scalene or an equilateral.
 
 #Author
 
