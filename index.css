@@ -1,21 +1,9 @@
 html {
-font-family: sans-serif;
-}
-body {
-  background-color: blue;
-  margin: 10px;
-}
-h1 {
-  font-size:36px;
-  font-style: oblique;
-  color:black;
-  text-transform: uppercase;
-  padding:0px;
+font-family: monospace;
 }
 p {
-  padding:5px;
-  margin-top: 5px;
-  color:black;
+  padding:0px;
+  margin-top: 1px;
   text-decoration: underline;
 }
 .triangle {

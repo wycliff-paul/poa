@@ -3,29 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>wycliff-paul</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script type="text/javascript" src="script.js">
-    </script>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <script src="js/script.js"></script>
     </head>
     <body>
       <div class="container">
-      <div class="row">
       <h1>triangle tackle</h1>
       <p>form of a triangle tracker</p>
       <div class="form group">
       <div id="Triangle">
-      <form class="triangle">
-      <label for="A">A:</label>
-      <input id="A" type="all sides are equal!"><br><br>
-      <label for="B">B:</label>
-      <input id="B" type="Exactly 2sides are equal"><br><br>
-      <label for="C">C:</label>
-      <input id="C" type="The sides do not make a triangleType"><br><br>
-      </div>
-      <button type="submit" name="submit">submit</button>
-      <button type="reset" name="reset">reset</button>
-      </form>
+      <div class="jumbotron">
+      <p>
+        a <input type="text" id="A" value=""><br><br>
+        b <input type="text" id="B" value=""><br><br>
+        c <input type="text" id="C" value=""><br><br>
+        <button type="submit" onclick="triangle()">submit</button>
+      </p>
       </div>
       </div>
       </div>
